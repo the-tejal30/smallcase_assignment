@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #ffadad; 
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #d7385e, #ff7675);
+  -webkit-background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+  font-style: italic;
+}
